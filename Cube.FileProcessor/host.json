@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  },
+  "logLevel": {
+    "Cube.FileProcessor.Services.FileShareService": "Error",
+    "Cube.FileProcessor.FileProcessingFunction": "Trace",
+    "default": "Trace"
+  }
+}
